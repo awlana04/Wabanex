@@ -1,7 +1,7 @@
 defmodule WabanexWeb.Schemas.Types.Root do
   use Absinthe.Schema.Notation
 
-  alias WabanexWeb.Resolver.User, as: UserResolver
+  alias WabanexWeb.Resolvers.User, as: UserResolver
 
   import_types WabanexWeb.Schemas.Types.User
 

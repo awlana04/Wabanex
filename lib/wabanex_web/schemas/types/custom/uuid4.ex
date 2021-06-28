@@ -1,4 +1,4 @@
-defmodule Wabanex.Schemas.Types.Custom.UUID4 do
+defmodule WabanexWeb.Schemas.Types.Custom.UUID4 do
   use Absinthe.Schema.Notation
 
   alias Ecto.UUID
