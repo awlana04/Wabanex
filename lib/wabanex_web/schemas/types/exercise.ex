@@ -1,7 +1,7 @@
 defmodule WabanexWeb.Schemas.Types.Exercise do
   use Absinthe.Schema.Notation
 
-  @desc "Logic exercise representation"
+  @desc "Logic exercises representation"
   object :exercise do
     field :id, non_null(:uuid4)
     field :name, non_null(:string)

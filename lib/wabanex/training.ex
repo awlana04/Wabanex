@@ -15,7 +15,7 @@ defmodule Wabanex.Training do
     field :end_date, :date
 
     belongs_to :user, User
-    has_many :exercises, Exercise
+    has_many :exercises, Exercises
 
     timestamps()
   end

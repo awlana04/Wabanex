@@ -7,7 +7,7 @@ defmodule Wabanex.Repo.Migrations.CreateExercisesTable do
       add :youtube_video_url, :string
       add :protocol_description, :string
       add :repetitions, :string
-      add :training_id, references(:exercises)
+      add :training_id, references(:trainings)
 
       timestamps()
     end
