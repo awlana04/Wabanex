@@ -1,9 +1,8 @@
 defmodule Wabanex.Training do
   use Ecto.Schema
-
   import Ecto.Changeset
 
-  alias Wabanex.{User, Exercises}
+  alias Wabanex.{Exercises, User}
 
   @primary_key {:id, :binary_id, autogenerate: true}
   @foreign_key_type :binary_id

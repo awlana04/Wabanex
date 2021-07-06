@@ -6,6 +6,7 @@ defmodule WabanexWeb.Schemas.Types.User do
     field :id, non_null(:uuid4)
     field :name, non_null(:string)
     field :email, non_null(:string)
+    field :trainings, list_of(:training)
   end
 
   input_object :create_user_input do
